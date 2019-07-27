@@ -110,89 +110,87 @@
 		<li><a href="#" class="active" data-cat="*">ALL</a></li>
 		<li><a href="#" data-cat=".design">Topologies</a></li>
 		<li><a href="#" data-cat=".fashion">Web Apps</a></li>
-		<li><a href="#" data-cat=".photo">Scripts</a></li>
-		<li><a href="#" data-cat=".video">Android Apps</a></li>
-		<li><a href="#" data-cat=".shooting">N/W Automations</a></li>
+		
 	</ul>
 </div>
 <div id="portfolio-items" class="portfolio-items">
 	<article class="video / fashion">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p1.jpg" alt=""/>
+	<img src="assets/img/demo/webapp1.jpg" alt=""/>
 	<div class="overlay">
-		<i class="fa fa-camera"></i>
-		<h3>Tellus ut Felis</h3>
-		<span>video, fashion</span>
+		<i class="fa fa-globe"></i>
+		<h3>Web Application 1</h3>
+		
 	</div>
 	</a>
 	</article>
-	<article class="fashion / video /shooting">
+	<article class="video / fashion">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p2.jpg" alt=""/>
+	<img src="assets/img/demo/webap3.jpg" alt=""/>
 	<div class="overlay">
-		<i class="fa fa-film"></i>
-		<h3>Habitant Morbi</h3>
+		<i class="fa fa-globe"></i>
+		<h3>Web Application 3</h3>
+		
+	</div>
+	</a>
+	</article>
+	<article class="video / fashion " >
+	<a href="portfolio-single.html">
+	<img src="assets/img/demo/webapp2.jpg" alt=""/>
+	<div class="overlay">
+		<i class="fa fa-globe"></i>
+		<h3>Web Application 2</h3>
 		<span>fashion, video, shooting</span>
-	</div>
-	</a>
-	</article>
-	<article class="fashion / design / shooting / photo">
-	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p3.jpg" alt=""/>
-	<div class="overlay">
-		<i class="fa fa-camera"></i>
-		<h3>Gravida Odio</h3>
-		<span>fashion, design, shooting, photo</span>
-	</div>
-	</a>
-	</article>
-	<article class="fashion / shooting / web">
-	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p4.jpg" alt=""/>
-	<div class="overlay">
-		<i class="fa fa-picture-o"></i>
-		<h3>Pulvinar Enim</h3>
-		<span>fashion, shooting, web</span>
 	</div>
 	</a>
 	</article>
 	<article class="design / video / shooting">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p5.jpg" alt=""/>
+	<img src="assets/img/demo/topology1.jpg" alt=""/>
 	<div class="overlay">
-		<i class="fa fa-film"></i>
-		<h3>Salique Wonder</h3>
-		<span>design, video, shooting</span>
+		<i class="fa fa-plug"></i>
+		<h3>Gns3 Network Topology 1</h3>
+		
 	</div>
 	</a>
 	</article>
-	<article class="photo / video / shooting">
+	<article class="video / fashion ">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p6.jpg" alt=""/>
+	<img src="assets/img/demo/webapp4.jpg" alt=""/>
 	<div class="overlay">
-		<i class="fa fa-picture-o"></i>
-		<h3>Maximus Viverra</h3>
-		<span>photo, video, shooting</span>
+		<i class="fa fa-globe"></i>
+		<h3>Web Application 4</h3>
+		
 	</div>
 	</a>
 	</article>
-	<article class="mobile / photo / design">
+	<article class="design / video / shooting">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p7.jpg" alt=""/>
+	<img src="assets/img/demo/topology2.jpg" alt=""/>
 	<div class="overlay">
-		<i class="fa fa-camera"></i>
-		<h3>Lacinia Fermentum</h3>
-		<span>mobile, photo, design</span>
+		<i class="fa fa-plug"></i>
+		<h3>GNS3 Network  Topology 2</h3>
+		
 	</div>
 	</a>
 	</article>
-	<article class="design / mobile / photo">
+	
+	<article class="design / video / shooting">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/p8.jpg" alt=""/>
+	<img src="assets/img/demo/topology3.jpg" alt=""/>
 	<div class="overlay">
-		<i class="fa fa-camera"></i>
-		<h3>Purus Neque</h3>
-		<span>design, mobile, photo</span>
+		<i class="fa fa-plug"></i>
+		<h3>GNS3 Network Topology 3</h3>
+		
+	</div>
+	</a>
+	</article>
+	<article class="design / video / shooting">
+	<a href="portfolio-single.html">
+	<img src="assets/img/demo/topolog4.jpg" alt=""/>
+	<div class="overlay">
+		<i class="fa fa-plug"></i>
+		<h3>GNS3 Network Topology 4</h3>
 	</div>
 	</a>
 	</article>
@@ -468,7 +466,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/chebweche.jpg" alt="">
+					<img src="assets/img/demo/sam.jpg" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
