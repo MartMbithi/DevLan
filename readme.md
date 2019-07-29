@@ -13,8 +13,17 @@ DevLan is an oline platform  that provides hosting for software development vers
 
 
 
+## Contributors
+1. <a href="">Mark </a>
+2. <a href="">Juan </a>
+3. <a href="">Doris</a>
+4. <a href="">Antony</a>
+5. <a href="">Joseph</a>
+6. <a href="">William</a>
+7. <a href="">Perpetual</a>
 
 
 ## License
+
 
 The DevLan Platform is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
