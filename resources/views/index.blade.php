@@ -77,27 +77,7 @@
 	</div>
 </div>
 </section>
-<!-- About Us
-================================================== -->
-<section class="split">
-<div class="col-md-6" style="min-height:420px;background-size:cover;background-image:url(assets/img/demo/1.png);">
-	<div class="overlay" style="background:#303543;opacity:0.4;">
-	</div>
-</div>
-<div class="col-md-6 darkbgcolor" style="min-height:420px;">
-	<h2 class="title">Little about us</h2>
-	<p class="lead">
-	DevLan is an oline platform  that provides hosting for software development version control. We also provide access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every networking or coding project.
-	</p>
-	<h2 class="title">In addition to software development and network projects, DevLan supports the following formats and features:</h2>
-	<ul class="unstyle checklist">
-		<li>Projects Documentation</li>
-		<li>Issue tracking Features</li>
-		<li>Integrations Directory</li>
-		<li>Email notifications</li>
-	</ul>
-</div>
-</section>
+
 <!-- Portfolio
 ================================================== -->
 <section class="page-wrapper bot0">
@@ -384,7 +364,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/perpetual.jpg" alt="">
+					<img src="assets/img/demo/pptx.jpg" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -518,12 +498,13 @@
 <!-- Timeline
 ================================================== -->
 <section id="tline" class="page-wrapper gray">
+<!--
 <div class="container">
 	<h2 class="title">Dev Lan Hacktivity</h2>
 	<div class="row">
 		<div class="col-md-12">
 			<ul class="tline-holder">
-				<!-- tline ITEM-->
+				
 				<li class="tline-item-left wow fadeInLeft">
 				<div class="tline-item-content">
 					<div class="date-icon fa fa-rocket">
@@ -539,8 +520,7 @@
 					</div>
 				</div>
 				</li>
-				<!-- /tline-->
-				<!-- tline-->
+				
 				<li class="tline-item-right wow fadeInRight">
 				<div class="tline-item-content">
 					<div class="date-icon fa fa-camera">
@@ -556,8 +536,7 @@
 					</div>
 				</div>
 				</li>
-				<!-- /tline-->
-				<!-- tline-->
+				
 				<li class="tline-item-left wow fadeInLeft">
 				<div class="tline-item-content">
 					<div class="date-icon fa fa-user">
@@ -573,8 +552,7 @@
 					</div>
 				</div>
 				</li>
-				<!-- /tline-->
-				<!-- tline-->
+				
 				<li class="tline-item-right wow fadeInRight">
 				<div class="tline-item-content">
 					<div class="date-icon fa fa-bullhorn">
@@ -590,7 +568,7 @@
 					</div>
 				</div>
 				</li>
-				<!-- /tline-->
+				
 				<li class="tline-start">
 				<div class="tline-start-content">
 					<div class="tline-start-icon">
@@ -601,10 +579,10 @@
 			</ul>
 		</div>
 	</div>
-</div>
+</div> -->
 </section>
 
-<!-- Customers
+ <!--Customers
 ================================================== -
 <section class="split customers">
 <div class="col-md-4 col-sm-4 accentbgcolor wow slideInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
@@ -653,5 +631,4 @@
 <script src="assets/js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from themepush.com/demo/cayman/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Jul 2019 13:21:41 GMT -->
 </html>
