@@ -228,14 +228,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-12">
@@ -259,14 +252,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-12">
@@ -290,14 +276,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -324,14 +303,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-12">
@@ -355,14 +327,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-12">
@@ -386,14 +351,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -420,14 +378,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-12">
@@ -451,14 +402,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 		
@@ -484,14 +428,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div> 
 	</div>
@@ -518,14 +455,7 @@
 				</div>
 				<div class="separator">
 				</div>
-				<div class="team-social">
-					<a href="https://facobook.com"><i class="fa fa-facebook-square"></i></a>
-					<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-					<a href="https://github.com"><i class="fa fa-github"></i></a>
-					<a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
-					<a href="https://gmail.com"><i class="fa fa-envelope"></i></a>
-					<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
-				</div>
+				
 			</div>
 		</div>
 		<div class="col-md-4 col-sm-4 col-xs-12">
