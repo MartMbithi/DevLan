@@ -32,11 +32,11 @@
 ================================================== -->
 <section class="page-wrapper gray">
 <div class="container">
-	<h2 class="title">See it in action</h2>
+	<h2 class="title">See Dev Lan In Action</h2>
 	<div class="row">
 		<div class="col-md-12 text-center">
 			<p class="lead">
-				 Cayman is the most flexible and complete theme.<br/> Its modern and fully responsive design best fits into current web trends.
+				 DevLan is the most flexible and open source project sharing platform.<br/> Its modern and fully responsive design best fits into current web trends.
 			</p>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 			<div class="feature-content">
 				<h3>Modern</h3>
 				<p>
-					 The most flexible and complete theme. A theme that is optimized for search engines, endless options. And if you get stuck, Cayman offers dedicated customer support.
+					 The most flexible and complete projects sharing platform. Its base theme its  optimized for search engines and if you get stuck, DevLan Team offers dedicated support.
 				</p>
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 			<div class="feature-content">
 				<h3>Creative</h3>
 				<p>
-					 Choose from multiple unique designs Cayman offers. You won't look for a new theme any time soon. User-friendly grid, based on the super popular Bootstrap.
+					 Choose from multiple unique project designs from our platform. 
 				</p>
 			</div>
 		</div>
@@ -70,7 +70,7 @@
 			<div class="feature-content">
 				<h3>Responsive</h3>
 				<p>
-					 Wide range of out of the box solutions. You can actually build any kind of website with Cayman. Personalize your site without coding expertise or design skills.
+					 Wide range of out of the box solutions. You can actually build any kind of projects  with DevLan. Personalize your project without coding expertise, design skills or any networking skills.
 				</p>
 			</div>
 		</div>
@@ -461,20 +461,20 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/ian.jpg" alt="">
+					<img src="assets/img/demo/ayub.jpg" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
 						<div class="port-zoom-link">
 							<p>
-								<span class="accentcolor" style="font-weight:700;">Ian_</span><br/>
-								<i>Dev Lan<br/>Software Engineer</i>
+								<span class="accentcolor" style="font-weight:700;">Ayub_</span><br/>
+								<i>Dev Lan<br/>Network Engineer</i>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="team-info">
-					<h2>Ian</h2>
+					<h2>Ayub</h2>
 					
 				</div>
 				<div class="separator">
