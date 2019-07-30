@@ -13,7 +13,7 @@
 				<li class="wow bounceIn animated" data-wow-delay="0.5s"><a target="_blank"  href="https://t.me/devlan_platform"><i class="fa fa-paper-plane"></i></a></li>
 
 			</ul>
-			<a href="index.html"><img src="assets/img/logo.png" class="footerlogo wow zoomIn" alt="logo"></a>
+			<a href="/"><img src="assets/img/logo.png" class="footerlogo wow zoomIn" alt="logo"></a>
 			<p class="copyright">
 				 &copy; <?php echo date('Y');?> All rights reserved.  DevLan inc.  Template  Made With <i class="fa fa-heartbeat fa-spin"></i>, <i class="fa fa-coffee fa-spin"></i> & <i class="fab fa-laravel fa-spin"></i> By <a target="_blank" href="martmbithi.github.io">MartDevelopers</a>.
 			</p>
