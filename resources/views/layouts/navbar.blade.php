@@ -14,7 +14,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
 				<div class="collapse navbar-collapse">
-					<a class="navbar-brand mobile pull-left" href="#"><i class="fa fa-diamond"></i>Dev<span class="logo-style">Lan</span></a>
+					<a class="navbar-brand mobile pull-left" href="#"><i class="fa fa-cogs"></i>Dev<span class="logo-style">Lan</span></a>
 					<a class="mobile-menu-close"><i class="fa fa-random"></i></a>
 					<ul class="nav navbar-nav nav-list">
 						<li>
@@ -40,6 +40,7 @@
 						
 						</li>
 
+<!--
 						<li class="dropdown redq-fullwidth">
 							<a href="/devlan_hacktivity">
 								<i class="fa fa-bolt"></i>
@@ -48,6 +49,7 @@
 						
 						</li>
 
+-->
 						<li class="dropdown redq-fullwidth">
 						<a href="/devlan_platform">
 								<i class="fa fa-bolt"></i>
