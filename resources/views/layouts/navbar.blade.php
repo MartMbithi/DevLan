@@ -25,15 +25,23 @@
 						</li>
 
 						<li class="dropdown redq-halfwidth">
-								<a href="/about_devlan">
+								<a href="/devlan_aboutus">
 									<i class="fa fa-bolt"></i>
 										<span class="link-item">About Us</span>
 								</a>
 						
 						</li>
+						
+						<li class="dropdown redq-fullwidth">
+						<a href="/devlan_team">
+								<i class="fa fa-bolt"></i>
+								<span class="link-item">Le' Gang</span>
+							</a>
+						
+						</li>
 
 						<li class="dropdown redq-fullwidth">
-							<a href="/dev_lan_hacktivity">
+							<a href="/devlan_hacktivity">
 								<i class="fa fa-bolt"></i>
 								<span class="link-item">DevLan Hacktivity</span>
 							</a>
@@ -41,12 +49,14 @@
 						</li>
 
 						<li class="dropdown redq-fullwidth">
-						<a href="/dev_lan_platform">
+						<a href="/devlan_platform">
 								<i class="fa fa-bolt"></i>
 								<span class="link-item">DevLan Platform</span>
 							</a>
 						
 						</li>
+
+						
 						
 					</ul>
 					<!-- end .nav .navbar-nav -->
