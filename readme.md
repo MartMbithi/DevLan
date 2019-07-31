@@ -23,6 +23,12 @@ DevLan is an oline platform  that provides hosting for software development vers
 7. <a href="">Perpetual</a>
 -->
 
+## How to run
+1.clone repo or download as a zip.
+2.run: composer install
+3.naviagate to the root directory and remane .env.example to .env
+4.run: php artisan key:generate
+5.run php artisan serve
 ## License
 
 
