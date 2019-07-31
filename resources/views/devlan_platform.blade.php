@@ -2,7 +2,7 @@
 @include('layouts.head')
 <body>
 <div class="page-loader">
-	<img src="assets/img/loader.gif" alt="">
+	<img src="{{ url('assets/img/loader.gif') }}" alt="">
 </div>
 <!-- Header
 ================================================== -->
@@ -26,7 +26,7 @@
 </header>
 <!-- Animated Intro
 ================================================== -->
-<div id="large-header" class="large-header" style="background-image:url(assets/img/demo/random9.jpg)">
+<div id="large-header" class="large-header" style="background-image:url({{ url('assets/img/demo/random9.jpg') }})">
 	<canvas id="demo-canvas"></canvas>
 	<h1 class="main-title">
 	<span class="text1 big wow bounceIn" data-wow-delay="0s" data-wow-duration="1s" style="margin-bottom:20px;padding:15px 0; border-top: 1px solid; border-bottom: 1px solid; display: inline-block;">
@@ -65,14 +65,8 @@
 @include('layouts.footer')
 <!-- JavaScript
 ================================================== -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/parallax.js"></script>
-<script src='assets/js/countto.js'></script>
-<script src="assets/js/portfolio.js"></script>
-<script src="assets/js/animheader.js"></script>
-<script src="assets/js/scripts.js"></script>
+@include('layouts.script')
+
 <script type="text/javascript">
 $('.countdown').downCount({
             date: '12/01/2019 12:00:00',

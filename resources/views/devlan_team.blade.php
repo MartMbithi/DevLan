@@ -2,7 +2,7 @@
 @include('layouts.head')
 <body>
 <div class="page-loader">
-	<img src="assets/img/loader.gif" alt="">
+	<img src="{{ url('assets/img/loader.gif') }}" alt="">
 </div>
 <!-- Header
 ================================================== -->
@@ -60,7 +60,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/mark.jpg" alt="">
+					<img src="{{ url('assets/img/demo/mark.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -84,7 +84,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/alonso.jpg" alt="">
+					<img src="{{ url('assets/img/demo/alonso.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -108,7 +108,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/el efe.jpg" alt="">
+					<img src="{{ url('assets/img/demo/el efe.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -135,7 +135,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/will_i_am.jpg" alt="">
+					<img src="{{ url('assets/img/demo/will_i_am.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -159,7 +159,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/doris.jpg" alt="">
+					<img src="{{ url('assets/img/demo/doris.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -183,7 +183,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/matt.jpg" alt="">
+					<img src="{{ url('assets/img/demo/matt.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -210,7 +210,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/sejo.jpg" alt="">
+					<img src="{{ url('assets/img/demo/sejo.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -234,7 +234,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/pptx.jpg" alt="">
+					<img src="{{ url('assets/img/demo/pptx.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -260,7 +260,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/sam.jpg" alt="">
+					<img src="{{ url('assets/img/demo/sam.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -287,7 +287,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/noel.jpg" alt="">
+					<img src="{{ url('assets/img/demo/noel.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -311,7 +311,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/ayub.jpg" alt="">
+					<img src="{{ url('assets/img/demo/ayub.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -337,7 +337,7 @@
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="team-boxes">
 				<div class="team-thumb overlay-image view-overlay">
-					<img src="assets/img/demo/kevv.jpg" alt="">
+					<img src="{{ url('assets/img/demo/kevv.jpg') }}" alt="">
 					<div class="clear">
 					</div>
 					<div class="mask team_quote">
@@ -369,13 +369,8 @@
 @include('layouts.footer')
 <!-- JavaScript
 ================================================== -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/parallax.js"></script>
-<script src='assets/js/countto.js'></script>
-<script src="assets/js/portfolio.js"></script>
-<script src="assets/js/scripts.js"></script>
+@include('layouts.script')
+
 <script>
 $(document).ready(function(){
 	$('.gallery').featherlightGallery({

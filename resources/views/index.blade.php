@@ -2,7 +2,7 @@
 @include('layouts.head')
 <body>
 <div class="page-loader">
-	<img src="assets/img/loader.gif" alt="">
+	<img src="{{ url('assets/img/loader.gif') }}" alt="">
 </div>
 <!-- Header
 ================================================== -->
@@ -98,8 +98,8 @@
 </div>
 <div id="portfolio-items" class="portfolio-items">
 	<article class="video / fashion">
-	<a href="portfolio-single.html">
-	<img src="assets/img/demo/webapp1.jpg" alt=""/>
+	<a href="#">
+	<img src="{{ url('assets/img/demo/webapp1.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-globe"></i>
 		<h3>Web Application 1</h3>
@@ -109,7 +109,7 @@
 	</article>
 	<article class="video / fashion">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/webap3.jpg" alt=""/>
+	<img src="{{ url('assets/img/demo/webap3.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-globe"></i>
 		<h3>Web Application 3</h3>
@@ -119,7 +119,7 @@
 	</article>
 	<article class="video / fashion " >
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/webapp2.jpg" alt=""/>
+	<img src="{{ url('assets/img/demo/webapp2.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-globe"></i>
 		<h3>Web Application 2</h3>
@@ -129,7 +129,7 @@
 	</article>
 	<article class="design / video / shooting">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/topology1.jpg" alt=""/>
+	<img src="{{ url('assets/img/demo/topology1.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-plug"></i>
 		<h3>Gns3 Network Topology 1</h3>
@@ -139,7 +139,7 @@
 	</article>
 	<article class="video / fashion ">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/webapp4.jpg" alt=""/>
+	<img src="{{ url('assets/img/demo/webapp4.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-globe"></i>
 		<h3>Web Application 4</h3>
@@ -149,7 +149,7 @@
 	</article>
 	<article class="design / video / shooting">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/topology2.jpg" alt=""/>
+	<img src="{{ url('assets/img/demo/topology2.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-plug"></i>
 		<h3>GNS3 Network  Topology 2</h3>
@@ -160,7 +160,7 @@
 	
 	<article class="design / video / shooting">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/topology3.jpg" alt=""/>
+	<img src="{{ url('assets/img/demo/topology3.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-plug"></i>
 		<h3>GNS3 Network Topology 3</h3>
@@ -170,7 +170,7 @@
 	</article>
 	<article class="design / video / shooting">
 	<a href="portfolio-single.html">
-	<img src="assets/img/demo/topolog4.jpg" alt=""/>
+	<img src="{{ url('assets/img/demo/topolog4.jpg') }}" alt=""/>
 	<div class="overlay">
 		<i class="fa fa-plug"></i>
 		<h3>GNS3 Network Topology 4</h3>
@@ -310,14 +310,7 @@
 @include('layouts.footer')
 <!-- JavaScript
 ================================================== -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/bootstrap.js"></script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/parallax.js"></script>
-<script src='assets/js/countto.js'></script>
-<script src="assets/js/portfolio.js"></script>
-<script src="assets/js/animheader.js"></script>
-<script src="assets/js/scripts.js"></script>
+@include('layouts.script')
 </body>
 
 </html>

@@ -9,35 +9,39 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
+
 */
 
 Route::get('/', function () {
-    return view('index');
+    return View::make('index');
 });
 
 
-//route to get about us controller
-Route::get('/devlan_aboutus', function ()
+//route to get about us route
+Route::get('aboutus', function()
 {
-    return view ('aboutus');
+    return View::make ('devlan_aboutus');
 });
+
 
 //web route to get devlan hacktivity controller
-Route::get('/devlan_hacktivity', function()
+Route::get('devlan_hacktivity', function()
 {
-    return view('devlan_hacktivity');
+    return View::make('devlan_hacktivity');
 });
 
 
 //web route to get devlan platform controller
-Route::get('/devlan_platform', function()
+Route::get('platform', function()
 {
-    return view('devlan_platform');
+    return View::make('devlan_platform');
 });
 
 
 //web route to get devlan platform members....or the gang behind devlan
-Route::get('/devlan_team',function()
+Route::get('team',function()
 {
-    return view('devlan_team');
+    return View::make('devlan_team');
 });
+
+

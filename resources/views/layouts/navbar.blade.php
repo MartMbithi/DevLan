@@ -9,7 +9,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand large" href='/'><img src="assets/img/logo.png" alt="Dev Lan"></a>
+					<a class="navbar-brand large" href="{{ url('/') }}"><img src="{{ url('assets/img/logo.png') }}" alt="Dev Lan"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
@@ -18,14 +18,14 @@
 					<a class="mobile-menu-close"><i class="fa fa-random"></i></a>
 					<ul class="nav navbar-nav nav-list">
 						<li>
-						    	<a href="/">
+						    	<a href="{{ url('/') }}">
 									<i class="fa fa-bolt"></i>
 										<span class="link-item">Home</span>
 								</a>
 						</li>
 
 						<li class="dropdown redq-halfwidth">
-								<a href="/devlan_aboutus">
+								<a href="{{ url('/aboutus') }}">
 									<i class="fa fa-bolt"></i>
 										<span class="link-item">About Us</span>
 								</a>
@@ -33,7 +33,7 @@
 						</li>
 						
 						<li class="dropdown redq-fullwidth">
-						<a href="/devlan_team">
+						<a href="{{ url('/team') }}">
 								<i class="fa fa-bolt"></i>
 								<span class="link-item">Le' Gang</span>
 							</a>
@@ -51,7 +51,7 @@
 
 -->
 						<li class="dropdown redq-fullwidth">
-						<a href="/devlan_platform">
+						<a href="{{ url('/platform') }}">
 								<i class="fa fa-bolt"></i>
 								<span class="link-item">DevLan Platform</span>
 							</a>
