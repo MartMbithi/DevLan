@@ -25,10 +25,10 @@ DevLan is an oline platform  that provides hosting for software development vers
 
 ## How to run
 1.clone repo or download as a zip.<br>
-2.run: composer install.<br>
-3.naviagate to the root directory and remane .env.example to .env <br>
-4.run: php artisan key:generate.<br>
-5.run php artisan serve
+2.run: <b>composer install</b>.<br>
+3.naviagate to the root directory and remane <b>.env.example to .env</b> <br>
+4.run: <b>php artisan key:generate</b>.<br>
+5.run: <b>php artisan serve</b>
 
 ## License
 
