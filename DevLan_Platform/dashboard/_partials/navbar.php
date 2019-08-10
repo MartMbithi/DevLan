@@ -91,7 +91,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right dropdown-menu-arrow">
                   <h6 class="dropdown-header px-0">Hi, <?php echo $row->username;?></h6>
-                  <a href="#!" class="dropdown-item">
+                  <a href="user_profile.php" class="dropdown-item">
                     <i class="fa fa-user"></i>
                     <span>My profile</span>
                   </a>
@@ -99,7 +99,7 @@
                     <i class="fa fa-cog"></i>
                     <span>Settings</span>
                   </a>
-                  
+
                   <div class="dropdown-divider"></div>
                   <a href="_partials/logout.php" class="dropdown-item">
                     <i class="fa fa-sign-out-alt"></i>
@@ -109,6 +109,5 @@
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+
           <?php }?>
