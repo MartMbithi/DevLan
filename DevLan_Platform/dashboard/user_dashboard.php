@@ -18,102 +18,11 @@
 <body class="application application-offset">
 
 
-  
+
   <!-- Application container -->
   <div class="container-fluid container-application">
     <!-- Sidenav -->
-    <div class="sidenav" id="sidenav-main">
-      <!-- Sidenav header -->
-      <div class="sidenav-header d-flex align-items-center">
-        <a class="navbar-brand" href="https://preview.webpixels.io/purpose-application-ui-kit-v1.0.0/index.html">
-          <img src="https://martdev.info/devlan/public/assets/img/logo.png" class="navbar-brand-img" alt="DevLan Logo">
-        </a>
-        <div class="ml-auto">
-          <!-- Sidenav toggler -->
-          <div class="sidenav-toggler sidenav-toggler-dark d-md-none" data-action="sidenav-unpin" data-target="#sidenav-main">
-            <div class="sidenav-toggler-inner">
-              <i class="sidenav-toggler-line bg-white"></i>
-              <i class="sidenav-toggler-line bg-white"></i>
-              <i class="sidenav-toggler-line bg-white"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- User mini profile -->
-      <div class="sidenav-user d-flex flex-column align-items-center justify-content-between text-center">
-        <!-- Avatar -->
-        <div>
-          <a href="#" class="avatar rounded-circle avatar-xl">
-            <img alt="Image placeholder" src="https://preview.webpixels.io/purpose-application-ui-kit-v1.0.0/assets/img/theme/light/team-1-800x800.jpg" class="">
-          </a>
-          <div class="mt-4">
-            <h5 class="mb-0 text-white"><?php echo $row->fname;?> <?php echo $row->lname;?></h5>
-            <span class="d-block text-sm text-white opacity-8 mb-3"><?php echo $row->bio;?></span>
-            <a href="#" class="btn btn-sm btn-white btn-icon rounded-pill shadow hover-translate-y-n3">
-              <span class="btn-inner--icon"><i class="fa fa-coins"></i></span>
-              <span class="btn-inner--text">$2.300</span>
-            </a>
-          </div>
-        </div>
-        <!-- User info -->
-        <!-- Actions -->
-        <div class="w-100 mt-4 actions d-flex justify-content-between">
-          
-          <a href="#modal-chat" class="action-item action-item-lg text-white" data-toggle="modal">
-            <i class="fa fa-comment-alt"></i>
-          </a>
-          <a href="shop/invoices.html" class="action-item action-item-lg text-white pr-0">
-            <i class="fa fa-receipt"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- Application nav -->
-      <div class="nav-application clearfix">
-        <a href="home.html" class="btn btn-square text-sm active">
-          <span class="btn-inner--icon d-block"><i class="fa fa-home fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Home</span>
-        </a>
-        <a href="project/card-listing.html" class="btn btn-square text-sm">
-          <span class="btn-inner--icon d-block"><i class="fa fa-projects fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Projects</span>
-        </a>
-        <a href="task/table-listing.html" class="btn btn-square text-sm">
-          <span class="btn-inner--icon d-block"><i class="fa fa-tasks fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Tasks</span>
-        </a>
-        <a href="task/kanban-board.html" class="btn btn-square text-sm">
-          <span class="btn-inner--icon d-block"><i class="fa fa-columns fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Kanban</span>
-        </a>
-        <a href="user/card-listing.html" class="btn btn-square text-sm">
-          <span class="btn-inner--icon d-block"><i class="fa fa-users fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Users</span>
-        </a>
-        <a href="user/profile.html" class="btn btn-square text-sm">
-          <span class="btn-inner--icon d-block"><i class="fa fa-user fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Profile</span>
-        </a>
-        <a href="shop/invoices.html" class="btn btn-square text-sm">
-          <span class="btn-inner--icon d-block"><i class="fa fa-receipt fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Invoices</span>
-        </a>
-        <a href="widgets.html" class="btn btn-square text-sm">
-          <span class="btn-inner--icon d-block"><i class="fa fa-cogs fa-2x"></i></span>
-          <span class="btn-inner--icon d-block pt-2">Widgets</span>
-        </a>
-      </div>
-      <!-- Misc area -->
-      <div class="card bg-gradient-warning">
-        <div class="card-body">
-          <h5 class="text-white">Hello, Friend!</h5>
-          <p class="text-white mb-4">
-            Why not start using Purpose Application UI Kit and create something amazing today?
-          </p>
-          <a href="https://themes.getbootstrap.com/product/purpose-application-ui-kit/" class="btn btn-sm btn-block btn-white rounded-pill" target="_blank">Get started</a>
-        </div>
-      </div>
-    </div>
+    <?php include ("_partials/side_navbar.php");?>
     <!-- Content -->
     <div class="main-content position-relative">
       <!-- Main nav -->
@@ -123,185 +32,34 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- User's navbar -->
-          <div class="navbar-user d-lg-none ml-auto">
-            <ul class="navbar-nav flex-row align-items-center">
-              <li class="nav-item">
-                <a href="#" class="nav-link nav-link-icon sidenav-toggler" data-action="sidenav-pin" data-target="#sidenav-main"><i class="fa fa-bars"></i></a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link nav-link-icon" data-action="omnisearch-open" data-target="#omnisearch"><i class="fa fa-search"></i></a>
-              </li>
-              <li class="nav-item dropdown dropdown-animate">
-                <a class="nav-link nav-link-icon" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bell"></i></a>
-                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg dropdown-menu-arrow p-0">
-                  <div class="py-3 px-3">
-                    <h5 class="heading h6 mb-0">Notifications</h5>
-                  </div>
-                  <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
-                        <div>
-                          <span class="avatar bg-primary text-white rounded-circle">AM</span>
-                        </div>
-                        <div class="flex-fill ml-3">
-                          <div class="h6 text-sm mb-0">Alex Michael <small class="float-right text-muted">2 hrs ago</small></div>
-                          <p class="text-sm lh-140 mb-0">
-                            Some quick example text to build on the card title.
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="3 hrs ago">
-                        <div>
-                          <span class="avatar bg-warning text-white rounded-circle">SW</span>
-                        </div>
-                        <div class="flex-fill ml-3">
-                          <div class="h6 text-sm mb-0">Sandra Wayne <small class="float-right text-muted">3 hrs ago</small></div>
-                          <p class="text-sm lh-140 mb-0">
-                            Some quick example text to build on the card title.
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="5 hrs ago">
-                        <div>
-                          <span class="avatar bg-info text-white rounded-circle">JM</span>
-                        </div>
-                        <div class="flex-fill ml-3">
-                          <div class="h6 text-sm mb-0">Jason Miller <small class="float-right text-muted">5 hrs ago</small></div>
-                          <p class="text-sm lh-140 mb-0">
-                            Some quick example text to build on the card title.
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="2 hrs ago">
-                        <div>
-                          <span class="avatar bg-dark text-white rounded-circle">MJ</span>
-                        </div>
-                        <div class="flex-fill ml-3">
-                          <div class="h6 text-sm mb-0">Mike Thomson <small class="float-right text-muted">2 hrs ago</small></div>
-                          <p class="text-sm lh-140 mb-0">
-                            Some quick example text to build on the card title.
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                      <div class="d-flex align-items-center" data-toggle="tooltip" data-placement="right" data-title="3 hrs ago">
-                        <div>
-                          <span class="avatar bg-primary text-white rounded-circle">RN</span>
-                        </div>
-                        <div class="flex-fill ml-3">
-                          <div class="h6 text-sm mb-0">Richard Nixon <small class="float-right text-muted">3 hrs ago</small></div>
-                          <p class="text-sm lh-140 mb-0">
-                            Some quick example text to build on the card title.
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="py-3 text-center">
-                    <a href="#" class="link link-sm link--style-3">View all notifications</a>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown dropdown-animate">
-                <a class="nav-link pr-lg-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="avatar avatar-sm rounded-circle">
-                    <img alt="Image placeholder" src="https://preview.webpixels.io/purpose-application-ui-kit-v1.0.0/assets/img/theme/light/team-4-800x800.jpg">
-                  </span>
-                </a>
-                <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right dropdown-menu-arrow">
-                  <h6 class="dropdown-header px-0">Hi, Heather!</h6>
-                  <a href="user/profile.html" class="dropdown-item">
-                    <i class="fa fa-user"></i>
-                    <span>My profile</span>
-                  </a>
-                  <a href="account/settings.html" class="dropdown-item">
-                    <i class="fa fa-cog"></i>
-                    <span>Settings</span>
-                  </a>
-                  <a href="account/billing.html" class="dropdown-item">
-                    <i class="fa fa-credit-card"></i>
-                    <span>Billing</span>
-                  </a>
-                  <a href="shop/orders.html" class="dropdown-item">
-                    <i class="fa fa-shopping-basket"></i>
-                    <span>Orders</span>
-                  </a>
-                  <div class="dropdown-divider"></div>
-                  <a href="authentication/login.html" class="dropdown-item">
-                    <i class="fa fa-sign-out-alt"></i>
-                    <span>Logout</span>
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
+
 
          <?php include("_partials/navbar.php");?>
-
+         </div>
+      </nav>
       <!-- Omnisearch -->
-      <div id="omnisearch" class="omnisearch">
-        <div class="container">
-          <!-- Search form -->
-          <form class="omnisearch-form">
-            <div class="form-group">
-              <div class="input-group input-group-merge input-group-flush">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="fa fa-search"></i></span>
-                </div>
-                <input type="text" class="form-control" placeholder="Type and hit enter ...">
-              </div>
-            </div>
-          </form>
-          <div class="omnisearch-suggestions">
-            <h6 class="heading">Search Suggestions</h6>
-            <div class="row">
-              <div class="col-sm-6">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a class="list-link" href="#">
-                      <i class="fa fa-search"></i>
-                      <span>macbook pro</span> in Laptops
-                    </a>
-                  </li>
-                  <li>
-                    <a class="list-link" href="#">
-                      <i class="fa fa-search"></i>
-                      <span>iphone 8</span> in Smartphones
-                    </a>
-                  </li>
-                  <li>
-                    <a class="list-link" href="#">
-                      <i class="fa fa-search"></i>
-                      <span>macbook pro</span> in Laptops
-                    </a>
-                  </li>
-                  <li>
-                    <a class="list-link" href="#">
-                      <i class="fa fa-search"></i>
-                      <span>beats pro solo 3</span> in Headphones
-                    </a>
-                  </li>
-                  <li>
-                    <a class="list-link" href="#">
-                      <i class="fa fa-search"></i>
-                      <span>smasung galaxy 10</span> in Phones
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Page content -->
+<div class="omnisearch-suggestions">
+                    <h6 class="heading">Search Suggestions</h6>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a class="list-link" href="#">
+                                        <i class="fa fa-search"></i>
+                                        <span>Networking Projects</span> Topologies
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="list-link" href="#">
+                                        <i class="fa fa-search"></i>
+                                        <span>Coding Projects</span> Web Apps
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>      <!-- Page content -->
       <?php
     $aid=$_SESSION['user_id'];
     $ret="select * from users where user_id=?";
@@ -318,7 +76,7 @@
         <div class="page-title">
           <div class="row justify-content-between align-items-center">
             <div class="col-md-6 mb-3 mb-md-0">
-           
+
               <h5 class="h3 font-weight-400 mb-0 text-white">Hey! <?php echo $row->fname;?> </h5>
               <span class="text-sm text-white opacity-8">Welcome To DevLan Platform!</span>
             </div>
