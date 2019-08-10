@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b7da1e-440f-4ffe-b242-797577aa6697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DevLan_Platform/dashboard/_partials/side_navbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevLan_Platform/dashboard/user_profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevLan_Platform/dashboard/_partials/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/DevLan_Platform/dashboard/_partials/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevLan_Platform/dashboard/_partials/side_navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/DevLan_Platform/dashboard/_partials/side_navbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DevLan_Platform/dashboard/user_dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/DevLan_Platform/dashboard/user_dashboard.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,6 +163,8 @@
       <workItem from="1563882153558" duration="1000" />
       <workItem from="1565363547701" duration="1164000" />
       <workItem from="1565364966765" duration="2608000" />
+      <workItem from="1565425171562" duration="2224000" />
+      <workItem from="1565431945418" duration="4664000" />
     </task>
     <servers />
   </component>

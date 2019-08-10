@@ -13,7 +13,7 @@ while($row=$res->fetch_object())
 <div class="sidenav" id="sidenav-main">
     <!-- Sidenav header -->
     <div class="sidenav-header d-flex align-items-center">
-        <a class="navbar-brand" href="https://preview.webpixels.io/purpose-application-ui-kit-v1.0.0/index.html">
+        <a class="navbar-brand" href="user_dashboard.php">
             <img src="https://martdev.info/devlan/public/assets/img/logo.png" class="navbar-brand-img" alt="DevLan Logo">
         </a>
         <div class="ml-auto">
@@ -31,8 +31,8 @@ while($row=$res->fetch_object())
     <div class="sidenav-user d-flex flex-column align-items-center justify-content-between text-center">
         <!-- Avatar -->
         <div>
-            <a href="#" class="avatar rounded-circle avatar-xl">
-                <img alt="Image placeholder" src="https://preview.webpixels.io/purpose-application-ui-kit-v1.0.0/assets/img/theme/light/team-1-800x800.jpg" class="">
+            <a href="#" class="avatar rectangle avatar-xl">
+                <img alt="Profile Picture" src="dist/img/profiles/<?php echo $row->dpic;?>" class="">
             </a>
             <div class="mt-4">
                 <h5 class="mb-0 text-white"><?php echo $row->fname;?> <?php echo $row->lname;?></h5>
@@ -58,48 +58,48 @@ while($row=$res->fetch_object())
 
     <!-- Application nav -->
     <div class="nav-application clearfix">
-        <a href="home.html" class="btn btn-square text-sm active">
+        <a href="user_dashboard.php" class="btn btn-square text-sm active">
             <span class="btn-inner--icon d-block"><i class="fa fa-home fa-2x"></i></span>
             <span class="btn-inner--icon d-block pt-2">Home</span>
         </a>
-        <a href="project/card-listing.html" class="btn btn-square text-sm">
-            <span class="btn-inner--icon d-block"><i class="fa fa-projects fa-2x"></i></span>
-            <span class="btn-inner--icon d-block pt-2">Projects</span>
-        </a>
-        <a href="task/table-listing.html" class="btn btn-square text-sm">
-            <span class="btn-inner--icon d-block"><i class="fa fa-tasks fa-2x"></i></span>
-            <span class="btn-inner--icon d-block pt-2">Tasks</span>
-        </a>
-        <a href="task/kanban-board.html" class="btn btn-square text-sm">
-            <span class="btn-inner--icon d-block"><i class="fa fa-columns fa-2x"></i></span>
-            <span class="btn-inner--icon d-block pt-2">Kanban</span>
-        </a>
-        <a href="user/card-listing.html" class="btn btn-square text-sm">
-            <span class="btn-inner--icon d-block"><i class="fa fa-users fa-2x"></i></span>
-            <span class="btn-inner--icon d-block pt-2">Users</span>
-        </a>
-        <a href="user/profile.html" class="btn btn-square text-sm">
+
+        <a href="user_profile.php" class="btn btn-square text-sm active">
             <span class="btn-inner--icon d-block"><i class="fa fa-user fa-2x"></i></span>
             <span class="btn-inner--icon d-block pt-2">Profile</span>
         </a>
-        <a href="shop/invoices.html" class="btn btn-square text-sm">
-            <span class="btn-inner--icon d-block"><i class="fa fa-receipt fa-2x"></i></span>
-            <span class="btn-inner--icon d-block pt-2">Invoices</span>
+
+
+        <a href="user_network_topologies_projects.php" class="btn btn-square text-sm active">
+            <span class="btn-inner--icon d-block"><i class="fa fa-connectdevelop fa-2x"></i></span>
+            <span class="btn-inner--icon d-block pt-2">Topologies</span>
         </a>
-        <a href="widgets.html" class="btn btn-square text-sm">
+
+        <a href="user_networking_scripts_projects.php" class="btn btn-square text-sm active">
+            <span class="btn-inner--icon d-block"><i class="fa fa-signal fa-2x"></i></span>
+            <span class="btn-inner--icon d-block pt-2">Networking Scripts</span>
+        </a>
+
+        <a href="user_web_application_projects.php" class="btn btn-square text-sm active">
+            <span class="btn-inner--icon d-block"><i class="fa fa-columns fa-2x"></i></span>
+            <span class="btn-inner--icon d-block pt-2">Web Apps</span>
+        </a>
+        <a href="user_framework_web_applications.php" class="btn btn-square text-sm active">
+            <span class="btn-inner--icon d-block"><i class="fa fa-qrcode fa-2x"></i></span>
+            <span class="btn-inner--icon d-block pt-2">Framework Web Apps</span>
+        </a>
+
+        <a href="user_own_projects.php" class="btn btn-square text-sm active">
+            <span class="btn-inner--icon d-block"><i class="fa fa-hdd-o fa-2x"></i></span>
+            <span class="btn-inner--icon d-block pt-2">My Projects</span>
+        </a>
+
+       
+
+        <a href="user_projects_settings.php" class="btn btn-square text-sm active">
             <span class="btn-inner--icon d-block"><i class="fa fa-cogs fa-2x"></i></span>
-            <span class="btn-inner--icon d-block pt-2">Widgets</span>
+            <span class="btn-inner--icon d-block pt-2">Settings</span>
         </a>
     </div>
-    <!-- Misc area -->
-    <div class="card bg-gradient-warning">
-        <div class="card-body">
-            <h5 class="text-white">Hello, Friend!</h5>
-            <p class="text-white mb-4">
-                Why not start using Purpose Application UI Kit and create something amazing today?
-            </p>
-            <a href="https://themes.getbootstrap.com/product/purpose-application-ui-kit/" class="btn btn-sm btn-block btn-white rounded-pill" target="_blank">Get started</a>
-        </div>
-    </div>
+    
 </div>
 <?php }?>
