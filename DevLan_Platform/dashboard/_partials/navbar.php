@@ -81,8 +81,8 @@
               <li class="nav-item dropdown dropdown-animate">
                 <a class="nav-link pr-lg-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <div class="media media-pill align-items-center">
-                    <span class="avatar rounded-circle">
-                      <img alt="Image placeholder" src="https://preview.webpixels.io/purpose-application-ui-kit-v1.0.0/assets/img/theme/light/team-4-800x800.jpg">
+                    <span class="avatar rounded-square">
+                      <img alt="" src="dist/img/profiles/<?php echo $row->dpic;?>">
                     </span>
                     <div class="ml-2 d-none d-lg-block">
                       <span class="mb-0 text-sm  font-weight-bold"><?php echo $row->fname;?> <?php echo $row->lname;?></span>
@@ -91,7 +91,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-sm dropdown-menu-right dropdown-menu-arrow">
                   <h6 class="dropdown-header px-0">Hi, <?php echo $row->username;?></h6>
-                  <a href="#!" class="dropdown-item">
+                  <a href="user_profile.php" class="dropdown-item">
                     <i class="fa fa-user"></i>
                     <span>My profile</span>
                   </a>
@@ -99,7 +99,7 @@
                     <i class="fa fa-cog"></i>
                     <span>Settings</span>
                   </a>
-                  
+
                   <div class="dropdown-divider"></div>
                   <a href="_partials/logout.php" class="dropdown-item">
                     <i class="fa fa-sign-out-alt"></i>
@@ -109,6 +109,5 @@
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+
           <?php }?>
