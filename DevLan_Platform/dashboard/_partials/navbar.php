@@ -82,7 +82,7 @@
                 <a class="nav-link pr-lg-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <div class="media media-pill align-items-center">
                     <span class="avatar rounded-square">
-                      <img alt="" src="dist/img/profiles/<?php echo $row->dpic;?>">
+                      <img alt="" src="../dashboard/dist/img/profiles/<?php echo $row->dpic;?>">
                     </span>
                     <div class="ml-2 d-none d-lg-block">
                       <span class="mb-0 text-sm  font-weight-bold"><?php echo $row->fname;?> <?php echo $row->lname;?></span>

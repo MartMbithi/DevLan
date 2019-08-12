@@ -5,7 +5,7 @@
   <?php include("navbar.php");?>
 
   <div class="intro py-8 bg-primary position-relative text-white">
-    <div class="bg-overlay-primary">
+    <div class="bg-overlay-success">
       <img src="img/photos/8.jpg" class="img-fluid img-cover" alt="Robust UI Kit" />
     </div>
     <div class="intro-content mt-5">
@@ -24,7 +24,7 @@
                       if(isset($_POST['log_in']))
                         {
                               $email=$_POST['email'];
-                              $password=sha1($_POST['password']);
+                              //$password=sha1($_POST['password']);
                               $stmt=$mysqli->prepare("SELECT email,password, user_id FROM users WHERE email=? and password=? ");
                               $stmt->bind_param('ss',$email,$password);
                               $stmt->execute();
@@ -60,12 +60,9 @@
                     <input type="email" class="form-control" name="email" id="email" >
                   </div>
                   
-                  <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" name="password" id="password">
-                  </div>
                   
-                  <button type="submit"  name="reset_password" class="btn btn-outline-success btn-block btn-lg mb-2">Reset Password</button>
+                  
+                  <button type="submit"  name="resetpassword" class="btn btn-outline-success btn-block btn-lg mb-2">Reset Password</button>
                   <div class="text-center">
                     Dont have an account? <a href="index.php">Sign up</a>
                   </div>

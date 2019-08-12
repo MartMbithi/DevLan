@@ -80,7 +80,7 @@
                                 $dpic=$_FILES["dpic"]["name"];
                                 move_uploaded_file($_FILES["dpic"]["tmp_name"],"dist/img/profiles/".$_FILES["dpic"]["name"]);
                                 $bio=$_POST['bio'];
-                                $skills=$_POST['skills'];
+                                $skill=$_POST['skill'];
                                 
 
                             //sql to inset the values to the database
@@ -114,6 +114,7 @@
                 </div>
             </div>
             <div class="row">
+            
                 
                 <?php
                 $aid=$_SESSION['user_id'];
@@ -228,7 +229,7 @@
                                     <div class="col">
                                         <div class="form-group">
                                             <label class="form-control-label mb-3">Skills</label>
-                                            <input type="text" name="skills" class="form-control" value="<?php echo $row->skill;?>" placeholder="Your Skills"  />
+                                            <input type="text" name="skill" class="form-control" value="<?php echo $row->skill;?>" placeholder="Your Skills"  />
                                         </div>
                                     </div>
                                 </div>

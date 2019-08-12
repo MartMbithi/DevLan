@@ -32,14 +32,15 @@ while($row=$res->fetch_object())
         <!-- Avatar -->
         <div>
             <a href="#" class="avatar rectangle avatar-xl">
-                <img alt="Profile Picture" src="dist/img/profiles/<?php echo $row->dpic;?>" class="">
+                <img alt="Profile Picture" src="../dashboard/dist/img/profiles/<?php echo $row->dpic;?>" class="">
             </a>
             <div class="mt-4">
                 <h5 class="mb-0 text-white"><?php echo $row->fname;?> <?php echo $row->lname;?></h5>
-                <span class="d-block text-sm text-white opacity-8 mb-3"><?php echo $row->bio;?></span>
+                <span class="d-block text-sm text-white opacity-8 mb-3"><?php echo $row->skill;?></span>
+                <!--
                 <a href="#" class="btn btn-sm btn-white btn-icon rounded-pill shadow hover-translate-y-n3">
                     <span class="btn-inner--icon"><i class="fa fa-coins"></i></span>
-                    <span class="btn-inner--text">$2.300</span>
+                    <span class="btn-inner--text"></span>-->
                 </a>
             </div>
         </div>
@@ -90,7 +91,7 @@ while($row=$res->fetch_object())
 
         <a href="user_own_projects.php" class="btn btn-square text-sm active">
             <span class="btn-inner--icon d-block"><i class="fa fa-hdd-o fa-2x"></i></span>
-            <span class="btn-inner--icon d-block pt-2">My Projects</span>
+            <span class="btn-inner--icon d-block pt-2">Create Project</span>
         </a>
 
        

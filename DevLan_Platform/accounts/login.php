@@ -5,7 +5,7 @@
   <?php include("navbar.php");?>
 
   <div class="intro py-8 bg-primary position-relative text-white">
-    <div class="bg-overlay-primary">
+    <div class="bg-overlay-success">
       <img src="img/photos/8.jpg" class="img-fluid img-cover" alt="Robust UI Kit" />
     </div>
     <div class="intro-content mt-5">

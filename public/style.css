@@ -1,8 +1,8 @@
-/* ================= 
-Theme Name: DevLan 
+/* =================
+Theme Name: DevLan
 Author:MartDevelopers
 Copyright:MartDevelopers
-=================*/ 
+=================*/
 
 /*=========================*/
 /* General */
@@ -26,14 +26,14 @@ p:last-child {
 	margin-bottom:0;
 }
 .accentbgcolor {
-	background:#20b2aa;
+	background:#10a320;
 	color:#fff;
 }
 .accentcolor {
-	color:#20b2aa;
+	color:#10a320;
 }
 a {
-	color:#20b2aa;
+	color:#10a320;
 }
 .w960 {
 	max-width:960px;
@@ -140,7 +140,7 @@ ul.longarrowlist li:before {
 	margin-right:5px;
 }
 .unstyle li:before {
-	color: #20b2aa;
+	color: #10a320;
 }
 .darkbgcolor ul.checklist li:before {
 	color:#fff;
@@ -219,8 +219,8 @@ ul.longarrowlist li:before {
 }
 .btn-primary {
 	color:#fff;
-	background-color:#20b2aa;
-	border-color:#20b2aa;
+	background-color:#10a320;
+	border-color:#10a320;
 }
 .btn-primary:hover,.btn-default:hover {
 	background-color:#303543;
@@ -307,7 +307,7 @@ ul.longarrowlist li:before {
 	left:42.5%;
 }
 .octa:after {
-	background-color:#20b2aa;
+	background-color:#10a320;
 	bottom:0;
 	content:'';
 	left:0;
@@ -348,7 +348,7 @@ ul.longarrowlist li:before {
 	margin-right:25px;
 	width:60px;
 	height:60px;
-	background-color:#20b2aa;
+	background-color:#10a320;
 	border-radius:50%;
 	vertical-align:top;
 	text-align:center;
@@ -368,7 +368,7 @@ ul.longarrowlist li:before {
 	text-align:left;
 }
 .feature.business i {
-	color:#20b2aa;
+	color:#10a320;
 	position:absolute;
 	left:15px;
 	font-size:24px;
@@ -433,7 +433,7 @@ ul.longarrowlist li:before {
 	display:block;
 	height:1px;
 	width:40px;
-	background-color:#20b2aa;
+	background-color:#10a320;
 	margin:15px auto 10px auto;
 	-webkit-animation:title-border .5s ease-in;
 	-moz-animation:title-border .5s ease-in;
@@ -482,7 +482,7 @@ ul.longarrowlist li:before {
 .split h3 {
 	margin-top:10px;
 }
-.split .biglead {  
+.split .biglead {
 	padding: 80px;
 	font-family: Georgia;
 	font-style: italic;
@@ -606,8 +606,8 @@ input.contact {
 }
 .portfolio-filter-list a.active {
 	border-width:1px;
-	background-color:#20b2aa;
-	border-color:#20b2aa;
+	background-color:#10a320;
+	border-color:#10a320;
 	color:#ffffff;
 }
 .portfolio-items {
@@ -673,7 +673,7 @@ input.contact {
 	border-bottom:1px solid;
 	border-width:1px;
 	border-style:solid;
-	border-color: #20b2aa;
+	border-color: #10a320;
 	content:' ';
 	width:180px;
 	display:block;
@@ -780,7 +780,7 @@ input.contact {
 	width:36px;
 	margin:7px 0 7px 20px;
 	clear:both;
-	background-color:#20b2aa;
+	background-color:#10a320;
 }
 .team-boxes .team_quote p {
 	font-size:14px;
@@ -1029,7 +1029,7 @@ ul .tline-holder>li {
 	padding-top:12px;
 	width:40px;
 	height:40px;
-	background-color:#20b2aa;
+	background-color:#10a320;
 	border-radius:100%;
 	-moz-border-radius:100%;
 	-webkit-border-radius:100%;
@@ -1075,7 +1075,7 @@ ul .tline-holder>li {
 }
 .funfacts .counter {
 	font-size:60px;
-	 color:#20b2aa;
+	 color:#10a320;
 	 font-weight:700;
 }
 .funfacts h4 {
@@ -1260,7 +1260,7 @@ ul.social-icons li i:hover {
 	display:block;
 	font-weight:700;
 	padding:18px 40px 18px 30px;
-	background-color:#20b2aa;
+	background-color:#10a320;
 	color:#fff !important;
 }
 .panel-title>a:after {
@@ -1278,7 +1278,7 @@ ul.social-icons li i:hover {
 	background-color:#414141;
 }
 .panel-title>a.collapsed:hover {
-	background-color:#20b2aa;
+	background-color:#10a320;
 }
 .panel-title>a.collapsed:after {
 	content:'+';
@@ -1387,8 +1387,8 @@ ul.social-icons li i:hover {
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover {
 	border-left:0;
 	border-bottom:1px solid;
-	border-color:#20b2aa;
-	background-color:#20b2aa;
+	border-color:#10a320;
+	background-color:#10a320;
 	color: #fff;
 }
 /*=========================*/
@@ -1427,9 +1427,9 @@ ul.social-icons li i:hover {
 	position:relative;
 }
 .block1 .btn.color {
-	background-color:#20b2aa;
+	background-color:#10a320;
 	border:1px solid;
-	border-color:#20b2aa;
+	border-color:#10a320;
 	color:#fff;
 }
 .block2,.block2 h2,.block2 h3,.block2 h4,.block2 h1,.block2 h5 {
@@ -2108,11 +2108,11 @@ ul.social-icons li i:hover {
 }
 /*=========================*/
 /* Thumbbox1 */
-/*=========================*/	
+/*=========================*/
 .thumbbox1 h3 {
 	font-size:16px;
 	text-transform:uppercase;
-	background-color:#20b2aa;
+	background-color:#10a320;
 	padding:13px 20px;
 	color:#fff;
 	margin-top:0;
@@ -2178,7 +2178,7 @@ ul.social-icons li i:hover {
 }
 .dentalform {
 	padding:30px;
-	background-color:#20b2aa;
+	background-color:#10a320;
 	margin-bottom:30px;
 }
 .dentalform .btn,.regularform .btn {
@@ -2192,7 +2192,7 @@ ul.social-icons li i:hover {
 /* Login & Register */
 /*=========================*/
 .lrform {
-	background-color:#20b2aa;
+	background-color:#10a320;
 	margin:25px auto;
 	width:353px;
 	min-height:400px;
@@ -2418,7 +2418,7 @@ ul.countdown li p {
 	background-color:#f2f2f2;
 	border-left-width:6px;
 	border-style:solid;
-	border-color:#20b2aa;
+	border-color:#10a320;
 	padding:15px 30px;
 	font-size:17px;
 	margin-bottom:0;
@@ -2460,7 +2460,7 @@ ul.countdown li p {
 .wow-pricing-table>div.featured {
 }
 .wow-pricing-table>div.featured .wow-pricing-header {
-	background-color:#20b2aa;
+	background-color:#10a320;
 }
 .wow-pricing-table:hover {
 	margin-top:-5px;
@@ -2523,7 +2523,7 @@ ul.countdown li p {
 	padding:12px 22px 14px;
 }
 .featured .wow-pricing-per,.featured .wow-pricing-cost,.featured .wow-pricing-button .wow-button,.buttoncolor {
-	background-color: #20b2aa;
+	background-color: #10a320;
 }
 /*=========================*/
 /* Panel */
@@ -2634,7 +2634,7 @@ ul.countdown li p {
 					transition:all 0.1s ease-in;
 	}
 	.redq .columns ul a:hover,ul.sub-menu a:hover,.redq a:hover {
-						color:#20b2aa;
+						color:#10a320;
 						background:#303543;
 						-webkit-transition:all 0.1s ease-in;
 					 -moz-transition:all 0.1s ease-in;
@@ -2743,7 +2743,7 @@ ul.countdown li p {
 }
 
 @media only screen and (max-width:860px) {
-	
+
 	.fullwidth.flexslider,.flexslider .slides>li {
 		height:auto !important;
 	}
@@ -2811,4 +2811,3 @@ ul.countdown li p {
 	padding: 85px 0px 100px;
 	}
 }
-
