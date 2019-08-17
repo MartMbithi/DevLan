@@ -9,6 +9,7 @@
       	   while($row=$res->fetch_object())
       	  {
       	  	?>
+      	  	<div class="be-wrapper be-color-header be-color-header-success">
 <nav class="navbar navbar-expand fixed-top be-top-header">
         <div class="container-fluid">
           <div class="be-navbar-header"><a class="navbar-brand" href="devlan_pages_dashboard.php"></a>
