@@ -56,6 +56,7 @@
                     </ul>
                   </li>
                   <li class="active"><a href="devlan_pages_pdfs.php"><i class="icon mdi mdi-laptop-chromebook"></i><span>PDF`S</span></a>
+                  <li class="active"><a href="devlan_pages_pdfs.php"><i class="icon mdi mdi-checkbox-multiple-marked-circle-outline"></i><span>Password Resets</span></a>
                  
                   </li>
                 </ul>
