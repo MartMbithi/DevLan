@@ -104,7 +104,7 @@ $aid=$_SESSION['user_id'];
                                             <label class="form-control-label">Project Category</label>
                                             <select id="project_category" name="project_category" class="form-control">
                                                 <option selected>Project Categories</option>
-                                                <option>GNS 3 Topologies</option>
+                                              <!--  <option>GNS 3 Topologies</option> -->
                                                 <option>Packet Tracer Topologies</option>
                                                 <option>Network Automation</option>
                                                 <option>FrontEnd WebApp</option>
