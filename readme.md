@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/MartMbithi/DevLan/blob/master/Dev%20Lan%20Main%20Logo.png"></p>
+<p align="center"><img src="https://github.com/MartMbithi/DevLan/blob/master/logo.png"></p>
 <!--
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
