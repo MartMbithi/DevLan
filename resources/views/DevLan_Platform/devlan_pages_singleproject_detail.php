@@ -11,10 +11,13 @@ $aid=$_SESSION['user_id'];
   
 <?php include('assets/_partials/head.php');?>
   <body>
+ 
     <div class="be-wrapper">
       <!-- Navigation Bar-->
+      <div class="be-wrapper be-fixed-sidebar">
       <?php include('assets/_partials/navbar.php');?>
       <!--Side Bar-->
+      
       <?php include('assets/_partials/sidebar.php');?>
 
       <?php	

@@ -42,21 +42,13 @@ $aid=$_SESSION['user_id'];
   
 <?php include('assets/_partials/head.php');?>
   <body>
+  <div class="be-wrapper be-fixed-sidebar">
     <div class="be-wrapper">
      <!--Head Bar-->
      <?php include("assets/_partials/navbar.php");?>
       <!--side navbar-->
       <?php include("assets/_partials/sidebar.php");?>
       <div class="be-content">
-        <div class="page-head">
-          <h2 class="page-head-title">Create Project</h2>
-          <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb page-head-nav">
-              <li class="breadcrumb-item"><a href="devlan_pages_dashboard.php">Dashbaord</a></li>
-              <li class="breadcrumb-item"><a href="#">Create Project</a></li>
-            </ol>
-          </nav>
-        </div>
         <?php if(isset($msg))
         {?>
             <script>
@@ -70,9 +62,14 @@ $aid=$_SESSION['user_id'];
         <?php }?>
        
         <div class="main-content container-fluid">
-      
           <div class="row wizard-row">
             <div class="col-md-12 fuelux">
+                <nav aria-label="breadcrumb" role="navigation">
+                  <ol class="breadcrumb page-head-nav">
+                    <li class="breadcrumb-item"><a href="devlan_pages_dashboard.php">Dashbaord</a></li>
+                    <li class="breadcrumb-item"><a href="#">Create Project</a></li>
+                  </ol>
+                </nav>            
               <div class="block-wizard">
                 <div class="wizard wizard-ux" id="wizard1">
                    
@@ -104,7 +101,7 @@ $aid=$_SESSION['user_id'];
                                             <label class="form-control-label">Project Category</label>
                                             <select id="project_category" name="project_category" class="form-control">
                                                 <option selected>Project Categories</option>
-                                              <!--  <option>GNS 3 Topologies</option> -->
+                                               <!-- <option>GNS 3 Topologies</option>-->
                                                 <option>Packet Tracer Topologies</option>
                                                 <option>Network Automation</option>
                                                 <option>FrontEnd WebApp</option>

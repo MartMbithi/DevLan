@@ -12,5 +12,6 @@
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/3.9.97/css/materialdesignicons.min.css">
     <link rel="stylesheet" type="text/css" href="assets/lib/summernote/summernote-bs4.css"/>
     <!--Sweet Alert JS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </head>

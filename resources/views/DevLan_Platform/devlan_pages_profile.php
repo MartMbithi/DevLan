@@ -10,6 +10,7 @@ $aid=$_SESSION['user_id'];
   
 <?php include("assets/_partials/head.php");?>
   <body>
+  <div class="be-wrapper be-fixed-sidebar">
     <div class="be-wrapper">
       <!--navbar-->
       <?php include('assets/_partials/navbar.php');?>

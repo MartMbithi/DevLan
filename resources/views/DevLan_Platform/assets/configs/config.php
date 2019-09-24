@@ -1,6 +1,6 @@
 <?php
-$dbuser="martdev1_root";
-$dbpass="Martinez@";
+$dbuser="root";
+$dbpass="";
 $host="localhost";
 $db="martdev1_devlan";
 $mysqli =new mysqli($host,$dbuser, $dbpass, $db);

@@ -9,12 +9,11 @@
       	   while($row=$res->fetch_object())
       	  {
       	  	?>
-      	  	<div class="be-wrapper be-color-header be-color-header-success">
-<nav class="navbar navbar-expand fixed-top be-top-header">
+  <nav class="navbar navbar-expand fixed-top be-top-header">
         <div class="container-fluid">
           <div class="be-navbar-header"><a class="navbar-brand" href="devlan_pages_dashboard.php"></a>
           </div>
-          <div class="page-title"><span>Dashboard</span></div>
+          <div class="page-title"><span>Hello <?php echo $row->username;?>! This is Your Dashboard</span></div>
           <div class="be-right-navbar">
             <ul class="nav navbar-nav float-right be-user-nav">
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><img src="assets/img/<?php echo $row->dpic;?>" alt="Avatar"><span class="user-name"><?php echo $row->fname;?> <?php echo $row->lname;?></span></a>
@@ -30,9 +29,8 @@
                 </div>
               </li>
             </ul>
+            
             <ul class="nav navbar-nav float-right be-icons-nav">
-              
-              
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><span class="icon mdi mdi-apps"></span></a>
                 <ul class="dropdown-menu be-connections">
                   <li>
@@ -41,10 +39,8 @@
                         <div class="row">
                           <div class="col"><a class="connection-item" href="https://github.com/MartMbithi/DevLan" target = "_blank"><img src="assets/img/github.png" alt="Github"><span>GitHub</span></a></div>
                         </div>
-                        
                       </div>
                     </div>
-                   
                   </li>
                 </ul>
               </li>
@@ -52,4 +48,6 @@
           </div>
         </div>
       </nav>
+      
             <?php }?>
+          
