@@ -43,7 +43,28 @@
     <link rel="stylesheet" type="text/css" href="assets/lib/material-design-icons/css/material-design-iconic-font.min.css"/>
     <link rel="stylesheet" href="assets/css/app.css" type="text/css"/>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!--Sweet alert js-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="520657449672-vk4c2nq6h1l4oa7a00jmjhdbc3q1hrod.apps.googleusercontent.com">
   </head>
+  <script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+function mischandler(){
+return false;
+}
+
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+
+</script>
   <body class="be-splash-screen">
     <div class="be-wrapper be-login be-signup">
       <div class="be-content">
@@ -78,15 +99,56 @@
 
                   <div class="form-group pt-2">
                     <button class="btn btn-block btn-outline-success btn-xl" name="create_Account" type="submit">Sign Up</button>
+                   
                   </div>
-
-                  
+                  <!--
+                  <div class="form-group pt-2">
+                    <centre>
+                        <div class="btn btn-outline-success btn-xl  g-signin2" data-onsuccess="onSignIn"></div>
+                    </centre> 
+                   </div>
+                          -->           
                 </form>
 
               </div>
-              <div class="splash-footer"><span>Already With account? <a href="index.php">Sign In</a></span></div>
-
+              
             </div>
+            <script type="text/javascript">
+
+	function onSignIn(googleUser) {
+
+	  var profile = googleUser.getBasicProfile();
+
+
+      if(profile){
+
+          $.ajax({
+
+                type: 'POST',
+
+                url: 'devlan_pages_login_pro.php',
+
+                data: {id:profile.getId(), name:profile.getName(), email:profile.getEmail()}
+
+            }).done(function(data){
+
+                console.log(data);
+
+                window.location.href = 'devlan_pages_dashboard.php';
+
+            }).fail(function() { 
+
+                alert( "Posting failed." );
+
+            });
+
+      }
+
+
+    }
+
+</script>
+            <div class="splash-footer"><span>Already With account? <a href="index.php">Sign In</a></span></div>
 
             <div class="splash-footer">&copy; <?php echo date("Y");?> DevLan Inc. All Rights Reserved. Powered By <a href="https://martmbithi.github.io">MartDevelopers</a></div>
 

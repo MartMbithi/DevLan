@@ -12,10 +12,10 @@ $aid=$_SESSION['user_id'];
 <?php include('assets/_partials/head.php');?>
   <body>
     <div class="be-wrapper be-fixed-sidebar">
-
-      <!--Head Based Navigation bar-->
+        
+     <!--Side Bar-->
       <?php include('assets/_partials/navbar.php');?>
-      <!--eND OF NAVBAR-->
+      <!--End of side bar-->
 
       <!--Side Bar-->
       <?php include('assets/_partials/sidebar.php');?>
@@ -139,7 +139,7 @@ $aid=$_SESSION['user_id'];
                                   $stmt->close();
                                     ?>
                                   <?php echo $coding_projects;?>, name: "Coding Projects", exploded: true },
-                                  { y
+                                  { y:
                                     <?php
                                   //code for getting all devlan PDF Projects
                                   $result ="SELECT count(*) FROM projects where project_category = 'PDF Cheat Sheets' ";
@@ -149,9 +149,9 @@ $aid=$_SESSION['user_id'];
                                   $stmt->fetch();
                                   $stmt->close();
                                       ?>
-                                    : <?php echo $members;?>, name: "Cheat Sheets" },
+                                    <?php echo $members;?>, name: "Cheat Sheets" },
 
-                                    { y
+                                    { y:
                                     <?php
                                   //code for getting all devlan networking projects
                                   $result ="SELECT count(*) FROM projects where project_category ='GNS 3 Topologies'   OR project_category = 'Network Automation' OR project_category = 'Packet Tracer Topologies' OR project_category = 'Misc Networking Projects' ";
@@ -161,7 +161,20 @@ $aid=$_SESSION['user_id'];
                                   $stmt->fetch();
                                   $stmt->close();
                                     ?>
-                                    : <?php echo $netwoking_projects;?>, name: "Networking Projects" }
+                                    <?php echo $netwoking_projects;?>, name: "Networking Projects" },
+                                    
+                                    
+                                    { y:
+                                    <?php
+                                  //code for getting all devlan networking projects
+                                  $result ="SELECT count(*) FROM projects where project_category ='Misc Networking Projects' OR project_category = 'Misc Coding Projects'";
+                                  $stmt = $mysqli->prepare($result);
+                                  $stmt->execute();
+                                  $stmt->bind_result($misc);
+                                  $stmt->fetch();
+                                  $stmt->close();
+                                    ?>
+                                    <?php echo $misc;?>, name: "Misc Projects" }
                                   
                                 ]
                               }]
@@ -190,13 +203,14 @@ $aid=$_SESSION['user_id'];
                     </div>
                     <div class="title">Latest Commits</div>
                   </div>
-                  <div class="card-body table-responsive">
+                  <div class="card-body">
                     <table class="table table-striped table-hover">
                       <thead>
                         <tr>
                         <th># </th>
                           <th style="width:36%;">Commit  </th>
                           <th>Category</th>
+                          <th>Date Created</th>
                           <th>Action</th>
                           
                         </tr>
@@ -218,6 +232,7 @@ $aid=$_SESSION['user_id'];
                           <td><?php  echo $cnt;?></td>
                           <td><?php echo $row->project_name;?></td>
                           <td><?php echo $row->project_category;?></td>
+                          <td><?php echo $row->date_created;?></td>
                           <td><a href='devlan_pages_recent_projects.php?project_id=<?php echo $row->project_id;?>' class="mdi mdi-eye-outline"></td>
                         </tr>
                       </tbody>
@@ -230,6 +245,8 @@ $aid=$_SESSION['user_id'];
           </div>
         </div>
       </div>
+    <div class="splash-footer"><span><?php echo date ('Y');?> Devlan Labs. Proudly Powered By  <a href="https://martmbithi.github.io/">MartDevelopers</a></span></div>
+
       
     </div>
     <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
@@ -250,6 +267,19 @@ $aid=$_SESSION['user_id'];
     <script src="assets/lib/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
     <script src="assets/lib/canvas/canvasjs.min.js"></script>
     <script src="assets/lib/canvas/jquery.canvasjs.min.js"></script>
+    <script src="assets/lib/datatables/datatables.net/js/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-bs4/js/dataTables.bootstrap4.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-buttons/js/dataTables.buttons.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-buttons/js/buttons.flash.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/jszip/jszip.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/pdfmake/pdfmake.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/pdfmake/vfs_fonts.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-buttons/js/buttons.colVis.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-buttons/js/buttons.print.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-buttons/js/buttons.html5.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-responsive/js/dataTables.responsive.min.js" type="text/javascript"></script>
+    <script src="assets/lib/datatables/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function(){
       	//-initialize the javascript

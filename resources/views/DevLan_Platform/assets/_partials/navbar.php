@@ -24,7 +24,6 @@
                   </div>
                     <a class="dropdown-item" href="devlan_pages_profile.php"><span class="icon mdi mdi-face"></span>Profile</a>
                     <a class="dropdown-item" href="devlan_pages_update_profile.php"><span class="icon mdi mdi-face"></span>Update Profile</a>
-                   <!-- <a class="dropdown-item" href="devlan_pages_create_project.php"><span class="icon mdi mdi-settings"></span>Settings</a>-->
                     <a class="dropdown-item" href="devlan_pages_logout.php"><span class="icon mdi mdi-power"></span>Logout</a>
                 </div>
               </li>
@@ -38,6 +37,8 @@
                       <div class="content">
                         <div class="row">
                           <div class="col"><a class="connection-item" href="https://github.com/MartMbithi/DevLan" target = "_blank"><img src="assets/img/github.png" alt="Github"><span>GitHub</span></a></div>
+                          <div class="col"><a class="connection-item" href="forum/" target = "_blank"><img src="assets/img/bitbucket.png" alt="Github"><span>Devlan Forum</span></a></div>
+
                         </div>
                       </div>
                     </div>
