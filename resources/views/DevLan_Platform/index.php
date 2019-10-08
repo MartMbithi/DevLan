@@ -36,7 +36,7 @@ include('assets/configs/config.php');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description" content="Devlan, Devlan Platform, Craddle of IT Projects.">
     <meta name="author" content="Mart Developers">
     <link rel="shortcut icon" href="https://devlan.martdev.info/assets/img/favicon.png">
     <title>DevLan | Software Development projects,  Networking, Scripts, Topologies</title> 
@@ -47,6 +47,25 @@ include('assets/configs/config.php');
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script><!--Sweet alert js-->
 
   </head>
+  <script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+function mischandler(){
+return false;
+}
+
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+
+</script>
   <body class="be-splash-screen">
     <div class="be-wrapper be-login">
       <div class="be-content">
@@ -93,6 +112,8 @@ include('assets/configs/config.php');
               </div>
             </div>
             <div class="splash-footer"><span>Don't have an account? <a href="devlan_pages_signup.php">Sign Up</a></span></div>
+            <div class="splash-footer"><span>Take Me <a href="../">Home</a> Safe</span></div>
+            <div class="splash-footer"><span><?php echo date ('Y');?> Devlan Labs. Proudly Powered By  <a href="https://martmbithi.github.io/">MartDevelopers</a></span></div>
           </div>
         </div>
       </div>

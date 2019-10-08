@@ -56,6 +56,8 @@
                     </ul>
                   </li>
                   <li class="active"><a href="devlan_pages_pdfs.php"><i class="icon mdi mdi-chip"></i><span>PDF Cheat Sheets</span></a>
+                  
+                  <li class="active"><a href="devlan_pages_advanced_project_search.php"><i class="icon mdi mdi-book-search-outline"></i><span> Search</span></a>
                  
                   </li>
                 </ul>

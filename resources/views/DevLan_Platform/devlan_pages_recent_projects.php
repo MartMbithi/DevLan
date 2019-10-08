@@ -43,6 +43,7 @@ $aid=$_SESSION['user_id'];
         </div>
         <div class="main-content container-fluid">
           <div class="row">
+              
           <div class="col-lg-12">
               <div class="card mb-3"><img class="card-img-top" src="assets/projects/<?php echo $row->project_avatar;?>" alt="project screenshot">
                 <div class="card-header">Project Category : <b><?php echo $row->project_category;?></b> <br>
@@ -50,7 +51,8 @@ $aid=$_SESSION['user_id'];
                 <?php echo $row->project_desc;?>
                 </div>
                 <div class="card-body">
-                  <a class="btn btn-outline-success" href="assets/projects/<?php echo $row->project_files;?>">Download</a>
+                  <a class="btn btn-outline-success" target="_blank"  href="assets/projects/<?php echo $row->project_files;?>">Download | More Info</a>
+                  <a class="btn btn-outline-warning"  href="<?php echo $row->project_link;?>">Hosted Project Link</a>
                 </div>
               </div>
             </div>
@@ -59,6 +61,8 @@ $aid=$_SESSION['user_id'];
         </div>
       </div>
         <?php }?>
+                    <div class="splash-footer"><span><?php echo date ('Y');?> Devlan Labs. Proudly Powered By  <a href="https://martmbithi.github.io/">MartDevelopers</a></span></div>
+
     </div>
     <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
     <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>

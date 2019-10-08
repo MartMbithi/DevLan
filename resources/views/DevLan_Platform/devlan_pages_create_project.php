@@ -14,7 +14,7 @@ $aid=$_SESSION['user_id'];
                 $user_id=$_SESSION['user_id'];
                 $user_email=$_POST['user_email'];
                 $date_created=($_POST['date_created']);
-               // $date_updated=$_POST['date_updated'];
+                $project_link=$_POST['project_link'];
                 $project_files=$_FILES["project_files"]["name"];
                 move_uploaded_file($_FILES["project_files"]["tmp_name"],"assets/projects/".$_FILES["project_files"]["name"]);
                       
@@ -22,10 +22,10 @@ $aid=$_SESSION['user_id'];
                 move_uploaded_file($_FILES["project_avatar"]["tmp_name"],"assets/projects/".$_FILES["project_avatar"]["name"]);
                       
                //sql to inset the values to the database
-                $query="insert into projects (project_name, project_desc, project_category, user_id, user_email, date_created,  project_files, project_avatar) values(?,?,?,?,?,?,?,?)";
+                $query="insert into projects (project_name, project_desc, project_category, user_id, user_email, date_created,  project_files, project_avatar, project_link) values(?,?,?,?,?,?,?,?,?)";
                 $stmt = $mysqli->prepare($query);
                 //bind the submitted values with the matching columns in the database.
-                $rc=$stmt->bind_param('ssssssss', $project_name, $project_desc, $project_category, $user_id, $user_email, $date_created,  $project_files, $project_avatar);
+                $rc=$stmt->bind_param('sssssssss', $project_name, $project_desc, $project_category, $user_id, $user_email, $date_created,  $project_files, $project_avatar, $project_link);
                 $stmt->execute();
 
                 
@@ -92,7 +92,7 @@ $aid=$_SESSION['user_id'];
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label class="form-control-label">Project name</label>
+                                            <label class="form-control-label">Project name *</label>
                                             <input class="form-control" name="project_name" required  type="text" placeholder="Name Your Project">
                                         </div>
                                     </div>
@@ -125,8 +125,8 @@ $aid=$_SESSION['user_id'];
                                     <div class="col">
                                         <div class="form-group">
                                             <div class="form-group">
-                                                <label class="form-control-label">Project Description</label>
-                                                <textarea class="form-control" name="project_desc" placeholder="Tell us a few words about your project" rows="3"></textarea>
+                                                <label class="form-control-label">Project Description *</label>
+                                                <textarea class="form-control" id="editor" name="project_desc" placeholder="Tell us a few words about your project" rows="3"></textarea>
                                                 <small class="form-text text-muted mt-2">You can @mention other users and organizations to link to them to your project</small>
                                             </div>
                                         </div>
@@ -136,8 +136,8 @@ $aid=$_SESSION['user_id'];
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label class="form-control-label">Your Email</label>
-                                            <input class="form-control" name="user_email" type="email" value="<?php echo $row->email;?>" placeholder="name@exmaple.com">
+                                            <label class="form-control-label">Your Email *</label>
+                                            <input class="form-control" name="user_email" required readonly type="email" value="<?php echo $row->email;?>" placeholder="name@exmaple.com">
                                         </div>
                                     </div>
                                 </div>
@@ -146,7 +146,7 @@ $aid=$_SESSION['user_id'];
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label class="form-control-label">Date Project Created</label>
+                                            <label class="form-control-label">Date Project Created *</label>
                                             <input class="form-control" name="date_created" type="date"  placeholder="Select Current Date">
                                         </div>
                                     </div>
@@ -161,8 +161,8 @@ $aid=$_SESSION['user_id'];
                                           <hr/>                      
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label class="form-control-label">Project Files</label>
-                                            <input class=" btn btn-outline-primary" name="project_files" type="file"  placeholder="Upload Less than 1.5mb Files">
+                                            <label class="form-control-label">Project Files *</label>
+                                            <input class=" btn btn-outline-primary" required="required" name="project_files" type="file"  placeholder="Upload Less than 1.5mb Files">
                                             <small class="form-text text-muted mt-2">Please Upload A Zipped/ Compressed Files Less than 1.5mb if huge file use google drive and just share the link. </small>
 
                                         </div>
@@ -170,13 +170,23 @@ $aid=$_SESSION['user_id'];
 
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label class="form-control-label">Project Screenshot</label>
-                                            <input class=" btn btn-outline-primary" name="project_avatar" type="file"  >
+                                            <label class="form-control-label">Project Screenshot *</label>
+                                            <input class=" btn btn-outline-primary"  name="project_avatar" type="file"  >
                                             <small class="form-text text-muted mt-2">Drop a screenshot of your Project</small>
 
                                         </div>
                                     </div>
+                                    
                                     <hr/>
+                                    <hr>
+                                    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="form-control-label">Provide A Project Link Incase You Have Uploaded It To Github.</label>
+                                            <input class="form-control" name="project_link" type="text"  placeholder="https://github.com/MartMbithi/DevLan">
+                                        </div>
+                                    </div>
+                                </div>
                                     
                                 </div>                               
                                 <hr />
@@ -196,7 +206,8 @@ $aid=$_SESSION['user_id'];
           </div>
         </div>
       </div>
-      
+                <div class="splash-footer"><span><?php echo date ('Y');?> Devlan Labs. Proudly Powered By  <a href="https://martmbithi.github.io/">MartDevelopers</a></span></div>
+  
     </div>
     <script src="assets/lib/jquery/jquery.min.js" type="text/javascript"></script>
     <script src="assets/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" type="text/javascript"></script>
@@ -206,6 +217,10 @@ $aid=$_SESSION['user_id'];
     <script src="assets/lib/select2/js/select2.min.js" type="text/javascript"></script>
     <script src="assets/lib/select2/js/select2.full.min.js" type="text/javascript"></script>
     <script src="assets/lib/bootstrap-slider/bootstrap-slider.min.js" type="text/javascript"></script>
+    <script src="//cdn.ckeditor.com/4.6.2/basic/ckeditor.js"></script>
+    <script type="text/javascript">
+      CKEDITOR.replace('editor')
+    </script>
     <script type="text/javascript">
       $(document).ready(function(){
       	//-initialize the javascript
