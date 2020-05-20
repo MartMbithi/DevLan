@@ -12,16 +12,13 @@
 DevLan is an oline platform  that provides hosting for software development version control. We also provide access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every networking or coding project.
 
 
-<!--
+
 ## Contributors
-1. <a href="">Mark </a>
-2. <a href="">Juan </a>
-3. <a href="">Doris</a>
-4. <a href="">Antony</a>
-5. <a href="">Joseph</a>
-6. <a href="">William</a>
-7. <a href="">Perpetual</a>
--->
+<a href="https://github.com/MartMbithi/DevLan/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=MartMbithi/DevLan" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
 
 ## How to run
 1.clone repo or download as a zip.<br>
