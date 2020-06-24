@@ -8,8 +8,7 @@
 </p>-->
 
 ## About Dev Lan
-
-DevLan is an oline platform  that provides hosting for software development version control. We also provide access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every networking or coding project.
+DevLan is an oline platform that provides hosting for software development  and networking projects version control. Also provide access control and several collaboration features such as bug tracking, feature requests, task management, and ReadMe's for every networking or coding project submitted. In addition to software development and network projects, DevLan supports the following formats and features: Projects Documentation, Issue tracking Features and Email notifications.
 
 
 
