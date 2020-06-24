@@ -21,11 +21,7 @@ DevLan is an oline platform  that provides hosting for software development vers
 Made with [contributors-img](https://contributors-img.web.app).
 
 ## How to run
-1.clone repo or download as a zip.<br>
-2.run: <b>composer install</b>.<br>
-3.naviagate to the root directory and remane <b>.env.example to .env</b> <br>
-4.run: <b>php artisan key:generate</b>.<br>
-5.run: <b>php artisan serve</b>
+1. Just <a href="https://devlan.martdev.info/">DevLan</a> It :)
 
 ## License
 
